@@ -1,0 +1,30 @@
+#include <iostream>
+#include <locale.h>
+int main () {
+
+	float   aceleracao;
+	float   forcaResultante;
+	float   massa;
+
+	setlocale(LC_ALL, "Portuguese");
+
+
+	std::cout << "Monte um algoritmo que encontre o valor de aceleração adquirida pelo corpo, sendo o valor correspondente a massa é de 20 kg e a sua força resultante é igual a 220N e encontre o valor de aceleração.\n";
+
+	std::cout << "\nFórmulas:fr = m * a || a = fr / m\n";
+	std::cout << "\n";
+
+	std::cout << "coloque o valor da força resultante: ";
+	std::cin  >> forcaResultante;
+
+	std::cout << "\n";
+
+	std::cout << "coloque o valor da massa: ";
+	std::cin  >> massa;
+
+
+	aceleracao = forcaResultante / massa;
+
+	std::cout << "A aceleração é de: " << aceleracao;
+
+}
