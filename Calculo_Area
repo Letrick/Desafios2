@@ -1,0 +1,25 @@
+#include<iostream>
+
+
+int main () {
+    float ladoA;
+    float ladoB;
+    float areaA;
+    float areaB;
+
+    std::cout<<"Determine o valor do lado de um triangulo equilatero, triangulo A. \n";
+    std::cin>> ladoA;
+    std::cout<<"Determine o valor do lado de um triangulo equilatero, triangulo B. \n";
+    std::cin>> ladoB;
+
+    areaA = ladoA * 90 / 2;
+    areaB = ladoB * 90 /2;
+
+    if (areaA > areaB)
+    {
+        std::cout<<"A area do triangulo A, e a maior. \n";   
+    }else{
+        std::cout<<"A area do triangulo B, e a maior. \n";
+    }
+    
+}
