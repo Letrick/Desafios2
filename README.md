@@ -1,1 +1,1 @@
-# Desafios2
+# Desafios diversos para praticar. 
